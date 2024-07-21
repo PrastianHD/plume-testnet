@@ -1,0 +1,8 @@
+.env
+src/checkin.js
+src/faucetETH.js
+src/faucetGOON.js
+src/stake.js
+src/swap.js
+src/main copy.js
+index copy.js
