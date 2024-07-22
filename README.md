@@ -1,4 +1,4 @@
-# Superseed Testnet Script
+# Plume Testnet Script
 
 ![logo](./utils/plume-testnet.png)
 
