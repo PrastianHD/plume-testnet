@@ -15,6 +15,14 @@
 ### Stake goonUSD Menu
 - After one wallet stake, wait 30 seconds before moving to the next wallet.
 - After all wallet stakes, start again from the first wallet in the PRIVATE_KEYS list.
+### Predict ETH/USD BTC/USD ARB/USD Price
+- All wallets take turns to make price predictions every 1 hour
+- The wallet automatically chooses randomly whether to pair ETH or BTC or ARB and chooses up or down randomly
+### Create Asset Tokenized RWA
+- All wallets take turns to make price predictions every 4 hours
+- The wallet automatically randomly chooses to create RWA according to what is in datawa.json starting from the type Card, Real Estate, Art, sneakers, and others. You can also change the data if you want it to be different
+
+explanation in Indonesian : [DISINI!](.READINDO.me)
 
 ## Installation 
 ### Clone Repositori
