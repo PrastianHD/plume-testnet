@@ -16,7 +16,7 @@ const pairs = {
   2: 'ARB/USDT',
   3: 'EUR/USD',
   4: 'USD/JPY',
-  5: 'GBP/USD'
+  5: 'GBP/USD' 
 };
 
 // Function to get a random integer between min and max (inclusive)
