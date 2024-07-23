@@ -20,7 +20,7 @@
 - The wallet automatically chooses randomly whether to pair ETH or BTC or ARB and chooses up or down randomly
 ### Create Asset Tokenized RWA
 - All wallets take turns to make price predictions every 4 hours
-- The wallet automatically randomly chooses to create RWA according to what is in datawa.json starting from the type Card, Real Estate, Art, sneakers, and others. You can also change the data if you want it to be different
+- The wallet automatically randomly chooses to create RWA according to what is in `datarwa.json` starting from the type Card, Real Estate, Art, sneakers, and others. You can also change the data if you want it to be different
 
 Penjelasan dalam bahasa Indonesia : [DISINI!](https://github.com/PrastianHD/plume-testnet/blob/main/READINDO.md)
 
