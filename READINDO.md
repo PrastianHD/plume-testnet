@@ -20,7 +20,7 @@
 - Wallet secara otomatis memilih secara acak apakah akan memasangkan ETH atau BTC atau ARB dan memilih naik atau turun secara acak
 ### Buat Tokenized Aset RWA
 - Semua wallet secara bergiliran membuat prediksi harga setiap 4 jam
-- Wallet secara otomatis secara acak memilih untuk membuat RWA sesuai dengan yang ada di datawa.json mulai dari jenis Card, Real Estate, Art, sneakers, dan lain-lain. Anda juga dapat mengubah data jika Anda menginginkannya berbeda
+- Wallet secara otomatis secara acak memilih untuk membuat RWA sesuai dengan yang ada di `datarwa.json` mulai dari jenis Card, Real Estate, Art, sneakers, dan lain-lain. Anda juga dapat mengubah data jika Anda menginginkannya berbeda
 
 ## Instalasi
 ### Kloning Repositori
