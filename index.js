@@ -24,7 +24,7 @@ function promptUser(question) {
 
 // Function to input password
 function inputPassword() {
-    const expectedPassword = '123';
+    const expectedPassword = 'PlumesGOON';
     const password = readlineSync.question('Enter password: ', {
         hideEchoBack: true,
         mask: ''
@@ -48,7 +48,7 @@ async function main() {
     console.log('3. Claim Faucet GOON');
     console.log('4. Swap GOON/goonUSD');
     console.log('5. Stake goonUSD');
-    console.log('6. Predict ETH Price');
+    console.log('6. Predict ETH/BTC/ARB Price');
     console.log('7. Create Asset Tokenized ');
     console.log('0. Exit Program');
 

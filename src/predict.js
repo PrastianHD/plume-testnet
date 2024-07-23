@@ -13,7 +13,10 @@ const contractAddress = "0x032139f44650481f4d6000c078820B8E734bF253";
 const pairs = {
   0: 'ETH/USDT',
   1: 'BTC/USDT',
-  2: 'ARB/USDT'
+  2: 'ARB/USDT',
+  3: 'EUR/USD',
+  4: 'USD/JPY',
+  5: 'GBP/USD'
 };
 
 // Function to get a random integer between min and max (inclusive)
@@ -50,8 +53,7 @@ async function callPredictPriceMovement(PRIVATE_KEY, pairIndex, isLong, retryCou
       log('INFO', message);
 
       const receipt = await tx.wait();
-      const explorerLink = `https://testnet-explorer.plumenetwork.xyz/tx/${receipt.hash}\n`;
-      log('SUCCESS', `Transaction successful: ${explorerLink}`);
+      log('SUCCESS', `Transaction successful: ${receipt.hash}\n`);
     } catch (error) {
       if (error.message.includes("Wait for cooldown")) {
         log('ERROR', `Please try again in 1 hour\n`);
@@ -73,7 +75,7 @@ async function callPredictPriceMovement(PRIVATE_KEY, pairIndex, isLong, retryCou
 async function predict() {
   while (true) {
     for (const PRIVATE_KEY of PRIVATE_KEYS) {
-      const pairIndex = getRandomInt(0, 2);
+      const pairIndex = getRandomInt(0, 5);
       const isLong = getRandomBool(); 
       await callPredictPriceMovement(PRIVATE_KEY, pairIndex, isLong);
     }
