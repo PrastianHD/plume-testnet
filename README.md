@@ -22,7 +22,7 @@
 - All wallets take turns to make price predictions every 4 hours
 - The wallet automatically randomly chooses to create RWA according to what is in datawa.json starting from the type Card, Real Estate, Art, sneakers, and others. You can also change the data if you want it to be different
 
-explanation in Indonesian : [DISINI!](.READINDO.md)
+Penjelasan dalam bahasa Indonesia : [DISINI!](.READINDO.md)
 
 ## Installation 
 ### Clone Repositori
