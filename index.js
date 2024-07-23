@@ -4,6 +4,8 @@ const readlineSync = require('readline-sync');
 const chalk = require('chalk');
 const { printName } = require('./utils/name');
 const { checkIn, faucetETH, faucetGOON, swapTokens, stake } = require('./src/main');
+const predict = require('./src/predict');
+const createToken = require('./src/createToken');
 
 // Function to prompt user for input
 function promptUser(question) {
@@ -46,6 +48,8 @@ async function main() {
     console.log('3. Claim Faucet GOON');
     console.log('4. Swap GOON/goonUSD');
     console.log('5. Stake goonUSD');
+    console.log('6. Predict ETH Price');
+    console.log('7. Create Asset Tokenized ');
     console.log('0. Exit Program');
 
     const scriptChoice = await promptUser('\nChoose the script to run: ');
@@ -60,6 +64,10 @@ async function main() {
         await swapTokens();
     } else if (scriptChoice === '5') {
         await stake();
+    } else if (scriptChoice === '6') {
+        await predict();    
+    } else if (scriptChoice === '7') {
+        await createToken();    
     } else if (scriptChoice === '0') {
         console.log(chalk.green('Exiting program. Goodbye!'));
         process.exit(0);
