@@ -11,7 +11,7 @@ try {
     PRIVATE_KEYS = process.env.PRIVATE_KEYS
     PRIVATE_KEYS = PRIVATE_KEYS.split(',')
     if (!Array.isArray(PRIVATE_KEYS)) {
-        throw new Error('PRIVATE_KEYS must be a valid JSON array');
+        throw new Error('PRIVATE_KEYS must be a valid string array');
     }
 } catch (error) {
     console.error('Error parsing PRIVATE_KEYS:', error.message);
