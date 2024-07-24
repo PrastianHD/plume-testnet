@@ -8,7 +8,8 @@ const provider = new ethers.JsonRpcProvider(RPC_URL);
 
 let PRIVATE_KEYS;
 try {
-    PRIVATE_KEYS = JSON.parse(process.env.PRIVATE_KEYS);
+    PRIVATE_KEYS = process.env.PRIVATE_KEYS
+    PRIVATE_KEYS = PRIVATE_KEYS.split(',')
     if (!Array.isArray(PRIVATE_KEYS)) {
         throw new Error('PRIVATE_KEYS must be a valid JSON array');
     }

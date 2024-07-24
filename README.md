@@ -41,7 +41,7 @@ npm install
 >create file .env in root project
 ```bash
 
-PRIVATE_KEY='["your_private_key", "your_private_key"].
+PRIVATE_KEY=your_private_key,your_private_key
 ```
 
 ### Run script

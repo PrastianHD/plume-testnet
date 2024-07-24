@@ -39,7 +39,7 @@ npm install
 >buat file .env di proyek root
 ```bash
 
-PRIVATE_KEY='["your_private_key", "your_private_key"].
+PRIVATE_KEY=your_private_key,your_private_key
 ```
 
 ### Jalankan skrip
