@@ -54,3 +54,6 @@ STAKE_AMOUNT=1
 ```
 npm start
 ```
+### If @crocswap-libs/sdk@file:sdk is missing, install it separately.
+npm i @crocswap-libs/sdk
+### The original author's code is not open source Please use with caution ⚠⚠⚠
