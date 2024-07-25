@@ -1,7 +1,7 @@
 # Plume Testnet Script
 
 ![logo](./utils/plume-testnet.png)
-## JOIN
+## Join
 https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 
 ## Menu Explain
