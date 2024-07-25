@@ -1,6 +1,8 @@
 # Plume Testnet Script
 
 ![logo](./utils/plume-testnet.png)
+## Join
+https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 
 ## Menu Explain
 ### Check-In Menu
@@ -41,7 +43,7 @@ npm install
 >create file .env in root project
 ```bash
 
-PRIVATE_KEY=your_private_key,your_private_key
+PRIVATE_KEYS=your_private_key,your_private_key
 ```
 
 ### Run script
