@@ -38,12 +38,16 @@ cd plume-testnet
 npm install
 ```
 
-### Konfigurasi .env File
+### Konfigurasi File
 
 >create file .env in root project
 ```bash
-
 PRIVATE_KEYS=your_private_key,your_private_key
+
+MIN_SWAP=0.001
+MAX_SWAP=0.01
+
+STAKE_AMOUNT=1
 ```
 
 ### Run script
