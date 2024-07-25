@@ -1,7 +1,8 @@
 # Skrip Plume Testnet
 
 ![logo](./utils/plume-testnet.png)
-
+## Join
+https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 ## Menu Penjelasan
 ### Menu Check-In
 - Setelah semua dompet telah check in, tunggu 24 jam sebelum siklus berikutnya dimulai dari dompet pertama dalam daftar PRIVATE_KEYS.
