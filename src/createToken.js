@@ -27,7 +27,7 @@ async function callCreateTokenForKey(PRIVATE_KEY) {
     try {
         const wallet = createWallet(PRIVATE_KEY, provider);
         const walletAddress = wallet.address;
-        log('INFO', `Wallet address: ${walletAddress}`);
+        log('DEBUG', `Wallet address: ${walletAddress}`);
         const contract = new ethers.Contract(contractAddress, abi, wallet);
 
         const randomData = getRandomData();

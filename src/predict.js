@@ -44,7 +44,7 @@ async function callPredictPriceMovement(PRIVATE_KEY, pairIndex, isLong, retryCou
   try {
     const wallet = createWallet(PRIVATE_KEY, provider);
     const walletAddress = wallet.address;
-    log('INFO', `Wallet address: ${walletAddress}`);
+    log('DEBUG', `Wallet address: ${walletAddress}`);
     const contract = new ethers.Contract(contractAddress, abi, wallet);
 
     try {

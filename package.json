@@ -1,6 +1,6 @@
 {
   "name": "plume-testnet",
-  "version": "1.2.0",
+  "version": "1.8.0",
   "description": "Script All In One for Plume Testnet",
   "main": "index.js",
   "scripts": {

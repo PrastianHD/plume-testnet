@@ -11,7 +11,7 @@ function log(status, message) {
             console.log(`${timestamp} | ${chalk.redBright(status)}  | ${chalk.redBright(message)}`);
             break;
         case 'INFO':
-            console.log(`${timestamp} | ${chalk.blueBright(status)}  | ${chalk.blueBright(message)}`);
+            console.log(`${timestamp} | ${chalk.blueBright(status)}   | ${chalk.blueBright(message)}`);
             break;
         case 'DEBUG':
             console.log(`${timestamp} | ${chalk.yellowBright(status)}  | ${chalk.yellowBright(message)}`);
