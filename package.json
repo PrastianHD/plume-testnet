@@ -12,7 +12,7 @@
   "repository": "https://github.com/PrastianHD/plume-testnet.git",
   "license": "MIT",
   "dependencies": {
-    "@crocswap-libs/sdk": "file:node_modules/@crocswap-libs/sdk",
+    "@crocswap-libs/sdk": "^1.0.2",
     "axios": "^1.7.2",
     "chalk": "^4.1.2",
     "dotenv": "^16.4.5",
