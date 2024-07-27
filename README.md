@@ -6,6 +6,7 @@ https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 
 ## Menu Explanation
 ### Menu[1] Check-In
+- After doing CheckIn, each wallet will claim NEST STAKING rewards
 - Each wallet in PRIVATE_KEYS will take turns checking in, then return to the Main Menu.
 ### Menu[2] Claim ETH Faucet
 - Each wallet in PRIVATE_KEYS will take turns Fauceting ETH using a different proxy for each wallet, then return to the Main Menu
@@ -14,11 +15,11 @@ https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 ### Menu[4] Swap GOON/goonUSD
 - After one wallet swap, wait 5 seconds before moving to the next wallet.
 - After all wallets swap GOON to goonUSD, then return to the Main Menu.
-- The amount of swap can be adjusted in .env
+- Swap amount can be adjusted in .env
 ### Menu[5] Stake goonUSD
-- Before staking, each wallet will first claim the NEST STAKING rewards
+- The stake amount is automatically all in according to the goonUSD balance in the wallet.
 - After all wallets stake, then return to the Main Menu.
-- The amount of stake can be adjusted in .env
+- The stake amount can be adjusted in .env
 ### Menu[6] ETH/USD BTC/USD ARB/USD Price Prediction
 - All wallets take turns predicting whether the price will go up or down
 - The wallet automatically randomly chooses whether to pair ETH or BTC or ARB, then returns to the Main Menu.
@@ -51,11 +52,8 @@ npm install
 ```bash
 PRIVATE_KEYS=your_private_key,your_private_key
 
-# Amount to stake
-STAKE_AMOUNT=99
-
 # Minimum and maximum swap values
-MIN_SWAP=0.09
+MIN_SWAP=0.099
 MAX_SWAP=0.1
 
 ```

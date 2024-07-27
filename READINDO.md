@@ -5,6 +5,7 @@
 https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 ## Menu Penjelasan
 ### Menu[1] Check-In
+- Setelah melakukan CheckIn, setiap wallet akan meng-claim rewards NEST STAKING
 - Setiap wallet yang ada di PRIVATE_KEYS akan secara bergantian melakukan checkin, kemudian kembali ke Main Menu.
 ### Menu[2] Klaim Faucet ETH
 - Setiap wallet yang ada di PRIVATE_KEYS akan secara bergantian melakukan Faucet ETH menggunakan proxy yang berbeda untuk setiap wallet, kemudian kembali ke Main Menu
@@ -15,7 +16,7 @@ https://miles.plumenetwork.xyz/join?invite=PLUME-6KCXQ
 - Setelah semua wallet swap GOON to goonUSD, kemudian kembali ke Main Menu.
 - Jumah swap bisa di sesuaikan di .env
 ### Menu[5] Stake goonUSD
-- Sebelum melakukan stake, setiap wallet akan meng-claim terlebih dahulu rewards NEST STAKING
+- Jumlah stake otomatis all in sesuai balance goonUSD di wallet.
 - Setelah semua wallet stake, kemudian kembali ke Main Menu.
 - Jumlah stake bisa di sesuaikan di .env
 ### Menu[6] Prediksi Harga ETH/USD BTC/USD ARB/USD
@@ -48,11 +49,8 @@ npm install
 ```bash
 PRIVATE_KEYS=your_private_key,your_private_key
 
-# Amount to stake
-STAKE_AMOUNT=99
-
 # Minimum and maximum swap values
-MIN_SWAP=0.09
+MIN_SWAP=0.099
 MAX_SWAP=0.1
 
 ```
