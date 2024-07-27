@@ -13,6 +13,7 @@ function printName() {
     =   ${chalk.greenBright('Menu[5] Stake goonUSD in Nest Staking ')}        =
     =   ${chalk.greenBright('Menu[6] Predict ETH/USD BTC/USD ARB/USD ')}      =
     =   ${chalk.greenBright('Menu[7] Create Asset Tokenized RWA ')}           =
+    =   ${chalk.greenBright('Menu[8] Run All Tasks Sequentially ')}           =
     =   ${chalk.magentaBright('Author: Prastian Hidayat')}                      =
     =   ${chalk.magentaBright('Github: https://github.com/PrastianHD')}         =
     +=================================================+

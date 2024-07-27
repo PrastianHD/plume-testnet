@@ -5,4 +5,8 @@ src/faucetGOON.js
 src/stake.js
 src/swap.js
 src/main_copy.js
-index copy.js
+src/predict.js
+src/createToken.js
+index_copy.js
+node_modules/
+package-lock.json
