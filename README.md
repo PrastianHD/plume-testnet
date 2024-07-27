@@ -51,7 +51,6 @@ npm install
 ```bash
 PRIVATE_KEYS=your_private_key,your_private_key
 
-<<<<<<< HEAD
 # Amount to stake
 STAKE_AMOUNT=99
 
@@ -65,12 +64,6 @@ MAX_SWAP=0.1
 # Format Proxy - username:password:host:port
  
 skrstvca:qwo3xoup86cg:204.44.69.89:6342
-=======
-MIN_SWAP=0.001
-MAX_SWAP=0.01
-
-STAKE_AMOUNT=1
->>>>>>> dd06948f82f2b2efbb79c590401f184928fbeaa6
 ```
 
 ### Run script
