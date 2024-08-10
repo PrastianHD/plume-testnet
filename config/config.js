@@ -22,4 +22,10 @@ const STAKE_AMOUNT = process.env.STAKE_AMOUNT;
 const MIN_SWAP = process.env.MIN_SWAP;
 const MAX_SWAP = process.env.MAX_SWAP;
 
-module.exports = { RPC_URL, provider, PRIVATE_KEYS, CONTRACT_ADDRESS, NETWORK: 'plumeSepolia', STAKE_AMOUNT, MIN_SWAP, MAX_SWAP };
+const config = {
+    TELEGRAM_BOT_TOKEN: 'yourtokenBot',
+    TELEGRAM_CHAT_ID: 'ChatID',
+    ENABLE_TELEGRAM_NOTIFICATIONS: true,
+};
+
+module.exports = { RPC_URL, provider, PRIVATE_KEYS, CONTRACT_ADDRESS, NETWORK: 'plumeSepolia', STAKE_AMOUNT, MIN_SWAP, MAX_SWAP, config };
